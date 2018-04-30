@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.menu{
+			list-style-type: none;
+
+		}
+		.container__conteudo1e2{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.container__imagem1{
+			background-color: white;
+		}
+		.container__imagem1:hover{
+			background:pink;
+		}
+		.imagem1{
+			width: 50em;
+			border:solid;
+			border-color: pink;
+			border-width: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.imagem1:hover{
+			background-color: pink;
+		}	
+		.final1{
+			display: flex;
+			flex-direction: column;
+			
+			height: 10vh;
+		}
+		.botao{
+			border:none;
+			background-color: white;
+		}
+		.final{
+			background-image: url(https://ae01.alicdn.com/kf/HTB1i2h_RVXXXXaHXFXXq6xXFXXX1/Bigodes-de-Gato-sentado-Branco-Preto-Pernas-Verdes-Olhos-de-Animais-Tecido-De-Seda-Impress-o.jpg_640x640.jpg);
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div id="SiteDesafio2">
+		<div class="container">
+			<section class="container_menu">
+				<p class="menu--conteudo">inicio</p>
+				<p class="menu--conteudo">sobre</p>
+				<p class="menu--conteudo">contato</p>
+			</section>
+			<section class="container__conteudos">
+				<div class="container_textos">
+					<h1 class="container1__textos--title">Lorem ipsum dolor sit amet.</h1>
+					<p class="container__textos--paragrafo1">paragrafo1</p>
+					<p class="container__textos--paragrafo2">paragrafo2</p>
+					<p class="container__textos--paragrafo3">Lorem ipsum dolor <b>sit amet</b></p>
+					<div class="container__imagem1">
+						<img class="imagem1" src="https://ae01.alicdn.com/kf/HTB1i2h_RVXXXXaHXFXXq6xXFXXX1/Bigodes-de-Gato-sentado-Branco-Preto-Pernas-Verdes-Olhos-de-Animais-Tecido-De-Seda-Impress-o.jpg_640x640.jpg">
+					</div>
+				</div>
+				<div class="final">
+					<div class="container2">
+						<p>paragrafo3</p>
+					 	<p>paragrafo4</p>
+					</div>
+					<div class="final1">
+						<button class="botao">Lorem ipsum dolor sit.</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
